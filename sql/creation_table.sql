@@ -1,3 +1,4 @@
+
 --creation table departements
     create table departements(
     id_departement INT PRIMARY KEY,
@@ -39,3 +40,4 @@ create table turnover(
     FOREIGN KEY ( id_employe) REFERENCES employes ( id_employe)
 
 );
+select * from performances
